@@ -36,6 +36,12 @@ export default function PostCard({ post, onLike, onDislike }) {
                 </button>
             </div>
 
+            <div className="actions">
+                <button type="button" onClick={() => onDislike(id)}>
+                    👎 Dislike <span className="count">{dislikes}</span>
+                </button>
+            </div>
+
         </article>
     );
 }
