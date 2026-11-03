@@ -10,5 +10,20 @@
 
 export default function Header({ totalPosts, totalLikes, totalDislikes }) {
     // TODO: Replace return null with your JSX 
-    return null;
+    const siteTitle = "Grid Blog";
+    const siteDescription = "A place to share thoughts and ideas.";
+    
+    return (
+        <header>
+            <h1>{siteTitle}</h1>
+            <p>{siteDescription}</p>
+            <div className="summary">
+                <span>Total Posts: {totalPosts}</span>
+                <span> • </span>
+                <span>Total Likes: {totalLikes}</span>
+                <span> • </span>
+                <span>Total Dislikes: {totalDislikes}</span>
+            </div>
+        </header>
+    );
 } 
