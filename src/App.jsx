@@ -38,6 +38,26 @@ export default class App extends React.Component {
           likes: 2,
           dislikes: 0,
         },
+        {
+          id: makeId(),
+          title: "Another Post",
+          author: "Instructor",
+          content: "This is another example post to show multiple posts in the grid.",
+          createdAt: todayString(),
+          imageDataUrl: "",
+          likes: 0,
+          dislikes: 0
+        },
+        {
+          id: makeId(),
+          title: "Yet Another Post",
+          author: "Instructor",
+          content: "This is yet another example post to demonstrate the grid layout.",
+          createdAt: todayString(),
+          imageDataUrl: "",
+          likes: 0,
+          dislikes: 0
+        }
       ],
       form: {
         title: "",
