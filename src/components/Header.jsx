@@ -10,7 +10,7 @@
 
 export default function Header({ totalPosts, totalLikes, totalDislikes }) {
     // TODO: Replace return null with your JSX 
-    const siteTitle = "Grid Blog";
+    const siteTitle = "GridBlog";
     const siteDescription = "A place to share thoughts and ideas.";
     
     return (
